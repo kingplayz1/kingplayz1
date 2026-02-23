@@ -33,3 +33,22 @@
 🛠️ Dev  : Node.js · Git · CLI Tools
 🤖 Bots : Discord · APIs · Automation
 ⚙️ Tools: GitHub Actions · REST · Cloudflare
+
+
+| Project               | Description                   |
+| --------------------- | ----------------------------- |
+| **DarkBeat1**         | Discord music bot 🔊          |
+| **DG-status-page**    | Website uptime + Slack Alerts |
+| **AssistantX**        | AI / assist tool              |
+| **MUSICGIRL-**        | TypeScript music bot          |
+| **soft-ui-dashboard** | UI Dashboards & templates     |
+
+
+while(alive) {
+  code();
+  innovate();
+  // ☕ coffee & deploy
+}
+<p align="center"> <em>Thanks for stopping by — stay curious! 👾</em> </p> ```
+
+
