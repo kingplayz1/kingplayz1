@@ -43,12 +43,4 @@
 | **MUSICGIRL-**        | TypeScript music bot          |
 | **soft-ui-dashboard** | UI Dashboards & templates     |
 
-
-while(alive) {
-  code();
-  innovate();
-  // ☕ coffee & deploy
-}
-<p align="center"> <em>Thanks for stopping by — stay curious! 👾</em> </p> ```
-
-
+```
