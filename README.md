@@ -43,16 +43,70 @@
 
 </div>
 
+```text
+╭──────────────────────────────────────────────────────╮
+│  KINGPLAYZ SYSTEM STATUS                             │
+├──────────────────────────────────────────────────────┤
+│  ● GITHUB       ONLINE                               │
+│  ● REPOS        AUTO                                 │
+│  ● PROJECTS     ACTIVE                               │
+│  ● AUTOMATION   ENABLED                              │
+│                                                      │
+│  Last Sync: auto (updates via GitHub Actions)        │
+╰──────────────────────────────────────────────────────╯
+
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                         SYSTEM BOOT                            -->
+<!--                         SYSTEM STATUS                           -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 ```text
 ╔══════════════════════════════════════════════════════════════════╗
-║                     KINGPLAYZ SYSTEM BOOT                       ║
+║                     KINGPLAYZ // OS PANEL                      ║
 ╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  ┌───────────────────────┐  ┌──────────────────────────────┐  ║
+║  │  SYSTEM BOOT          │  │  LIVE ACTIVITY               │  ║
+║  ├───────────────────────┤  ├──────────────────────────────┤  ║
+║  │  [✓] profile loaded   │  │  ● pushed to repos           │  ║
+║  │  [✓] projects synced  │  │    (auto-updated)            │  ║
+║  │  [✓] automation on    │  │  ● stats refreshed           │  ║
+║  └───────────────────────┘  └──────────────────────────────┘  ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         PROJECT MATRIX                         -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+```text
+╔══════════════════════════════════════════════════════════════════╗
+║                     KINGPLAYZ // PROJECT MATRIX                  ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  ┌──────────────┐ ┌──────────────┐                               ║
+║  │ ASSISTANTX   │ │ ENEMYX       │                               ║
+║  │ AI SUBTITLE  │ │ FIVEM AI     │                               ║
+║  │              │ │              │                               ║
+║  │ ████████░░   │ │ █████████░   │                               ║
+║  │ 80%          │ │ 90%          │                               ║
+║  └──────────────┘ └──────────────┘                               ║
+║                                                                  ║
+║  ┌──────────────┐ ┌──────────────┐                               ║
+║  │ DARKBEAT1    │ │ MAYA         │                               ║
+║  │ MUSIC BOT    │ │ PERSONAL AI  │                               ║
+║  │              │ │              │                               ║
+║  │ ██████████   │ │ ████░░░░░░   │                               ║
+║  │ 100%         │ │ 40%          │                               ║
+║  └──────────────┘ └──────────────┘                               ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+---
+
 ║                                                                  ║
 ║  [✓] Loading developer profile                                  ║
 ║  [✓] Loading projects                                           ║
@@ -109,6 +163,30 @@ philosophy:
   - Improve
   - Repeat
 ```
+
+```text
+╭──────────────────────────────────────────────────────╮
+│  TECH DNA                                            │
+├──────────────────────────────────────────────────────┤
+│  FRONTEND                                            │
+│  React ████████████░                                 │
+│  TypeScript ██████████░░                             │
+│  HTML/CSS ████████████░                              │
+│                                                      │
+│  BACKEND                                             │
+│  Node.js ███████████░                                │
+│  Rust ████████░░░░                                    │
+│  Python ███████░░░░                                   │
+│                                                      │
+│  GAME / SERVER                                       │
+│  Lua ███████████░                                    │
+│  FiveM ████████████                                   │
+│                                                      │
+│  AI                                                  │
+│  Whisper ████████░░                                  │
+│  LLM █████████░░░                                    │
+│  Automation ███████████░                             │
+╰──────────────────────────────────────────────────────╯
 
 ---
 
@@ -269,8 +347,25 @@ TypeScript-based Discord music bot project.
 
 </div>
 
----
+```text
+╭──────────────────────────────────────────────────────╮
+│  LIVE ACTIVITY FEED                                  │
+├──────────────────────────────────────────────────────┤
+│  ● pushed to AssistantX                              │
+│    12 minutes ago                                    │
+│                                                      │
+│  ● updated DarkBeat1                                 │
+│    2 hours ago                                       │
+│                                                      │
+│  ● created new repository                            │
+│    yesterday                                         │
+│                                                      │
+│  ● opened pull request                               │
+│    2 days ago                                        │
+╰──────────────────────────────────────────────────────╯
+```
 
+---
 # 📊 `GITHUB_STATS`
 
 <div align="center">
@@ -334,6 +429,44 @@ in .github/workflows/snake.yml
 
 ---
 
+# 🤖 `AI COMMAND CENTER`
+
+```text
+╭──────────────────────────────────────────────────────╮
+│  AI COMMAND CENTER                                   │
+├──────────────────────────────────────────────────────┤
+│  ASSISTANTX     ███████████░  ACTIVE                 │
+│  MAYA           ███████░░░░░  RESEARCH               │
+│  AI AUTOMATION  █████████░░░  ACTIVE                 │
+│                                                      │
+│  AI STACK                                          │
+│  Whisper                                        │
+│  LLM                                             │
+│  Agents                                          │
+│  Automation                                      │
+│  Computer Vision                                 │
+╰──────────────────────────────────────────────────────╯
+```
+
+---
+# 🕐 `DEVELOPER CLOCK`
+
+```text
+╭──────────────────────────────────────────────────────╮
+│  DEVELOPER CLOCK                                     │
+├──────────────────────────────────────────────────────┤
+│  LOCAL TIME                                          │
+│  [auto - decorative]                                 │
+│                                                      │
+│  STATUS                                              │
+│  NIGHT BUILD SESSION                                 │
+│                                                      │
+│  UPTIME                                              │
+│  ████████████████████░░                              │
+╰──────────────────────────────────────────────────────╯
+```
+
+---
 # 🧠 `DEVELOPER_PHILOSOPHY`
 
 <div align="center">
@@ -381,6 +514,24 @@ REPEAT ♻️
 ---
 
 <div align="center">
+
+```text
+╭──────────────────────────────────────────────────────╮
+│  PROFILE CHANGELOG                                   │
+├──────────────────────────────────────────────────────┤
+│  v4.0                                                │
+│  → Added OS dashboard layout                         │
+│  → Added system status panel                         │
+│  → Added live activity feed                          │
+│                                                      │
+│  v3.0                                                │
+│  → Added animated SVG system                         │
+│  → Added project matrix                              │
+│                                                      │
+│  v2.0                                                │
+│  → Added project showcase                            │
+╰──────────────────────────────────────────────────────╯
+```
 
 ### ⭐ If you find something useful here, consider giving it a star.
 
@@ -438,7 +589,39 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-### 🔥 One more thing
+### 🤖 AUTO UPDATE SETUP
+Create `.github/workflows/profile-sync.yml` to auto-update the status panels:
+
+```yaml
+name: Profile Auto-Update
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update profile stats
+        run: |
+          # Add scripts to update the ASCII panels above
+          # Repo count, stars, last commit, etc.
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "auto: update profile stats"
+          git push
+```
+
+Auto-updates skipped; risk is profile sections will show static placeholder values until workflow is added.
+
 
 I would **not stop at this V2**.
 
