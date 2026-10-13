@@ -1,0 +1,65 @@
+name: Profile Auto-Update
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Get GitHub stats
+        id: stats
+        run: |
+          # Get repository count
+          REPO_COUNT=$(curl -s https://api.github.com/users/kingplayz1/repos?per_page=100 | grep -c '"full_name"' || echo "0")
+
+          # Get follower count
+          FOLLOWER_COUNT=$(curl -s https://api.github.com/users/kingplayz1 | grep -o '"followers":[0-9]*' | grep -o '[0-9]*' || echo "0")
+
+          # Get stars count
+          STAR_COUNT=$(curl -s https://api.github.com/users/kingplayz1/repos?per_page=100 | grep -o '"stargazers_count":[0-9]*' | awk -F': ' '{sum+=$2} END {print sum}' || echo "0")
+
+          # Get last commit date
+          LAST_COMMIT=$(git log -1 --format="%ar" || echo "unknown")
+
+          echo "repo_count=$REPO_COUNT" >> $GITHUB_OUTPUT
+          echo "follower_count=$FOLLOWER_COUNT" >> $GITHUB_OUTPUT
+          echo "star_count=$STAR_COUNT" >> $GITHUB_OUTPUT
+          echo "last_commit=$LAST_COMMIT" >> $GITHUB_OUTPUT
+
+      - name: Update README with stats
+        run: |
+          # Update system status panel with real data
+          sed -i "s/● GITHUB       ONLINE/● GITHUB       ONLINE/" README.md
+          sed -i "s/● REPOS        AUTO/● REPOS        ${{ steps.stats.outputs.repo_count }}/" README.md
+          sed -i "s/● PROJECTS     ACTIVE/● PROJECTS     ACTIVE/" README.md
+          sed -i "s/● Last Sync: auto/● Last Sync: $(date -u +'%H:%M UTC')/" README.md
+
+          # Update network panel
+          sed -i "s/REPOS:  ● ONLINE  (.*/REPOS:  ● ONLINE  (${{ steps.stats.outputs.repo_count }} active)/" README.md
+          sed -i "s/STARS:  ● GROWING  (.*/STARS:  ● GROWING  (↑${{ steps.stats.outputs.star_count }} this week)/" README.md
+          sed -i "s/FOLLOWS: ● STABLE  (.*/FOLLOWS: ● STABLE  (${{ steps.stats.outputs.follower_count }} followers)/" README.md
+          sed -i "s/COMMITS: ● ACTIVE  (.*/COMMITS: ● ACTIVE  (last: ${{ steps.stats.outputs.last_commit }})/" README.md
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "auto: update profile stats $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          fi

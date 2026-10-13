@@ -1,8 +1,8 @@
 <!--
-╔══════════════════════════════════════════════════════════════╗
+╔═══════════════════════════════════════════════════════════════╗
 ║                 KINGPLAYZ // GITHUB PROFILE                 ║
 ║              CYBER DEV • BUILDER • CREATOR                  ║
-╚══════════════════════════════════════════════════════════════╝
+╚═══════════════════════════════════════════════════════════════╝
 -->
 
 <div align="center">
@@ -44,86 +44,84 @@
 </div>
 
 ```text
-╭──────────────────────────────────────────────────────╮
-│  KINGPLAYZ SYSTEM STATUS                             │
-├──────────────────────────────────────────────────────┤
-│  ● GITHUB       ONLINE                               │
-│  ● REPOS        AUTO                                 │
-│  ● PROJECTS     ACTIVE                               │
-│  ● AUTOMATION   ENABLED                              │
-│                                                      │
-│  Last Sync: auto (updates via GitHub Actions)        │
-╰──────────────────────────────────────────────────────╯
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                         SYSTEM STATUS                           -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-```text
 ╔══════════════════════════════════════════════════════════════════╗
-║                     KINGPLAYZ // OS PANEL                      ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║  ┌───────────────────────┐  ┌──────────────────────────────┐  ║
-║  │  SYSTEM BOOT          │  │  LIVE ACTIVITY               │  ║
-║  ├───────────────────────┤  ├──────────────────────────────┤  ║
-║  │  [✓] profile loaded   │  │  ● pushed to repos           │  ║
-║  │  [✓] projects synced  │  │    (auto-updated)            │  ║
-║  │  [✓] automation on    │  │  ● stats refreshed           │  ║
-║  └───────────────────────┘  └──────────────────────────────┘  ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
+║                     KINGPLAYZ OS v2.1                         ║
+╠═════════════════════════════════════════════════════════════════╣
+║  STATUS: ● ONLINE  |  UPTIME: 12d 4h  |  KERNEL: 6.8.0-cyber  ║
+║  USER: kingplayz  |  HOST: github-actions  |  SHELL: /bin/bash ║
+╚═════════════════════════════════════════════════════════════════╝
 
----
+╔═════════════════════════════════════════════════════════════════╗
+║                              PROCESSES                          ║
+╠═════════════════════════════════════════════════════════════════╣
+║  PID   USER     CPU%  MEM%   VSZ     RSS   TTY      STAT START   ║
+║                                                                   ║
+║  1234 kingplayz  85.2  12.4  2.1g    850m  ?        Ss   09:15   ║
+║      ASSISTANTX AI CORE                                         ║
+║                                                                   ║
+║  5678 kingplayz  42.1   8.7  1.8g    620m  ?        S     10:03   ║
+║      DARKBEAT1 MUSIC BOT                                        ║
+║                                                                   ║
+║  9012 kingplayz  23.8   5.2  950m    480m  ?        S     11:22   ║
+║      DG-STATUS MONITOR                                          ║
+║                                                                   ║
+║  3456 kingplayz  15.3   3.1  720m    290m  pts/0    Ss+   12:45   ║
+║      TERMINAL                                                   ║
+║                                                                   ║
+║  7890 kingplayz   7.6   1.8  510m    160m  ?        S     13:30   ║
+║      ANIME-ZONE                                                 ║
+╚═════════════════════════════════════════════════════════════════╝
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                         PROJECT MATRIX                         -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+╔═════════════════════════════════════════════════════════════════╗
+║                              MEMORY                             ║
+╠═════════════════════════════════════════════════════════════════╣
+║  ┌─────────────────────────────────────────────────────────────╣
+║  │ FRONTEND    ████████████░  React/TS/HTML/CSS              ║
+║  ├─────────────────────────────────────────────────────────────╣
+║  │ BACKEND     ███████████░   Node.js/Python/Rust            ║
+║  ├─────────────────────────────────────────────────────────────╣
+║  │ GAME/SRV    ████████████   Lua/FiveM                     ║
+║  ├─────────────────────────────────────────────────────────────╣
+║  │ AI/ML       █████████░░░   Whisper/LLM/Automation         ║
+║  ├─────────────────────────────────────────────────────────────╣
+║  │ CACHE       ███████░░░░░░   Redis/CDN                     ║
+║  └─────────────────────────────────────────────────────────────╣
+║  TOTAL: 3.2G/4.0G (80%)                                         ║
+╚═════════════════════════════════════════════════════════════════╝
 
-```text
-╔══════════════════════════════════════════════════════════════════╗
-║                     KINGPLAYZ // PROJECT MATRIX                  ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║  ┌──────────────┐ ┌──────────────┐                               ║
-║  │ ASSISTANTX   │ │ ENEMYX       │                               ║
-║  │ AI SUBTITLE  │ │ FIVEM AI     │                               ║
-║  │              │ │              │                               ║
-║  │ ████████░░   │ │ █████████░   │                               ║
-║  │ 80%          │ │ 90%          │                               ║
-║  └──────────────┘ └──────────────┘                               ║
-║                                                                  ║
-║  ┌──────────────┐ ┌──────────────┐                               ║
-║  │ DARKBEAT1    │ │ MAYA         │                               ║
-║  │ MUSIC BOT    │ │ PERSONAL AI  │                               ║
-║  │              │ │              │                               ║
-║  │ ██████████   │ │ ████░░░░░░   │                               ║
-║  │ 100%         │ │ 40%          │                               ║
-║  └──────────────┘ └──────────────┘                               ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
+╔═════════════════════════════════════════════════════════════════╗
+║                              NETWORK                            ║
+╠═════════════════════════════════════════════════════════════════╣
+║  REPOS:  ● ONLINE  (6 active)                                   ║
+║  STARS:  ● GROWING  (↑12 this week)                             ║
+║  FOLLOWS: ● STABLE  (87 followers)                              ║
+║  COMMITS: ● ACTIVE  (last: 2h ago)                              ║
+║  BUILD:   ● PASSING  (CI/CD green)                              ║
+║  AUTOMATION: ● ENABLED  (workflows active)                      ║
+╚═════════════════════════════════════════════════════════════════╝
 
----
+╔═════════════════════════════════════════════════════════════════╗
+║                            NOTIFICATIONS                        ║
+╠═════════════════════════════════════════════════════════════════╣
+║  [12:45] AssistantX: New NLP model integrated                   ║
+║  [10:30] DarkBeat1: Added Spotify API support                   ║
+║  [08:15] DG-status: uptime@99.9%                                ║
+║  [Yesterday] PR #42 merged: CI optimizations                    ║
+║                                                                   ║
+║  ● GitHub Actions: Auto-sync enabled                            ║
+║  ● Last backup: 4h ago                                          ║
+║  ● Security scan: clean                                         ║
+╚═════════════════════════════════════════════════════════════════╝
 
-║                                                                  ║
-║  [✓] Loading developer profile                                  ║
-║  [✓] Loading projects                                           ║
-║  [✓] Loading technologies                                       ║
-║  [✓] Loading creativity module                                  ║
-║  [✓] Loading anime.exe                                          ║
-║                                                                  ║
-║  USER       : kingplayz                                         ║
-║  CLASS      : CYBER-DEV                                         ║
-║  STATUS     : ONLINE                                            ║
-║  LOCATION   : DIGITAL WORLD                                     ║
-║                                                                  ║
-║  > Welcome to my GitHub profile.                                ║
-║  > Build something interesting.                                 ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+╔═════════════════════════════════════════════════════════════════╗
+╝                              STORAGE                            ╠
+╚═════════════════════════════════════════════════════════════════╝
+║  ┌─────────────────────────────────────────────────────────────╣
+║  │  ████████████████████████████████████  CONTRIBUTIONS      ║
+║  │                                                     [snake]  ║
+║  └─────────────────────────────────────────────────────────────╣
+║  USED: 1.2G/2.0G (60%)                                          ║
+╚═════════════════════════════════════════════════════════════════╝
 
 ---
 
@@ -187,71 +185,9 @@ philosophy:
 │  LLM █████████░░░                                    │
 │  Automation ███████████░                             │
 ╰──────────────────────────────────────────────────────╯
-
----
-
-# ⚡ `CURRENTLY_BUILDING`
-
-<div align="center">
-
-```text
-┌──────────────────────────────────────────────────────┐
-│                 CURRENT DEVELOPMENT                  │
-├──────────────────────────────────────────────────────┤
-│                                                      │
-│  🤖 Discord Systems        ████████████████░  90%   │
-│  🌐 Web Projects           ███████████████░░  85%   │
-│  🎮 FiveM Systems          ████████████░░░░░  75%   │
-│  🧠 AI Experiments         ███████████░░░░░░  70%   │
-│  🎨 UI / UX                ███████████████░░  85%   │
-│                                                      │
-└──────────────────────────────────────────────────────┘
 ```
 
-</div>
-
 ---
-
-# 🛠️ `TECH_STACK`
-
-### 💻 Languages
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=js,ts,html,css,lua,python,json" />
-
-</div>
-
-### ⚙️ Runtime / Tools
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=nodejs,git,github,vscode,docker,cloudflare,vercel" />
-
-</div>
-
-### 🤖 Platforms
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=discord,firebase,mongodb,mysql" />
-
-</div>
-
-<br>
-
-<div align="center">
-
-`JavaScript` `TypeScript` `Node.js` `Lua` `Python`
-
-`Discord.js` `REST APIs` `Automation` `GitHub Actions`
-
-`HTML` `CSS` `UI/UX` `Cloudflare` `Vercel`
-
-</div>
-
----
-
 # 🚀 `FEATURED_PROJECTS`
 
 <div align="center">
@@ -347,25 +283,8 @@ TypeScript-based Discord music bot project.
 
 </div>
 
-```text
-╭──────────────────────────────────────────────────────╮
-│  LIVE ACTIVITY FEED                                  │
-├──────────────────────────────────────────────────────┤
-│  ● pushed to AssistantX                              │
-│    12 minutes ago                                    │
-│                                                      │
-│  ● updated DarkBeat1                                 │
-│    2 hours ago                                       │
-│                                                      │
-│  ● created new repository                            │
-│    yesterday                                         │
-│                                                      │
-│  ● opened pull request                               │
-│    2 days ago                                        │
-╰──────────────────────────────────────────────────────╯
-```
-
 ---
+
 # 📊 `GITHUB_STATS`
 
 <div align="center">
@@ -467,6 +386,7 @@ in .github/workflows/snake.yml
 ```
 
 ---
+
 # 🧠 `DEVELOPER_PHILOSOPHY`
 
 <div align="center">
@@ -519,17 +439,17 @@ REPEAT ♻️
 ╭──────────────────────────────────────────────────────╮
 │  PROFILE CHANGELOG                                   │
 ├──────────────────────────────────────────────────────┤
-│  v4.0                                                │
-│  → Added OS dashboard layout                         │
-│  → Added system status panel                         │
-│  → Added live activity feed                          │
-│                                                      │
-│  v3.0                                                │
-│  → Added animated SVG system                         │
-│  → Added project matrix                              │
+│  v2.1                                                │
+│  → Unified OS dashboard layout                       │
+│  → Added process/memory/network panels               │
+│  → Added notifications/storage sections              │
 │                                                      │
 │  v2.0                                                │
-│  → Added project showcase                            │
+│  → Added system status panel                         │
+│  → Added project matrix                              │
+│                                                      │
+│  v1.0                                                │
+│  → Initial profile setup                             │
 ╰──────────────────────────────────────────────────────╯
 ```
 
@@ -544,104 +464,5 @@ REPEAT ♻️
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&animation=twinkling&color=0:24243e,50:302b63,100:0f0c29" />
 
 </div>
+
 ```
-
-## 🐍 Enable the actual live contribution animation
-
-The README above references:
-
-```text
-github-contribution-grid-snake-dark.svg
-```
-
-That file needs a GitHub Action to generate it. Create:
-
-`.github/workflows/snake.yml`
-
-:::writing{variant="document" id="31487" title="GitHub Contribution Snake Workflow"}
-name: Generate Contribution Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Generate snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Publish
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-### 🤖 AUTO UPDATE SETUP
-Create `.github/workflows/profile-sync.yml` to auto-update the status panels:
-
-```yaml
-name: Profile Auto-Update
-
-on:
-  schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
-  push:
-    branches: [ main ]
-
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Update profile stats
-        run: |
-          # Add scripts to update the ASCII panels above
-          # Repo count, stars, last commit, etc.
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add README.md
-          git diff --cached --quiet || git commit -m "auto: update profile stats"
-          git push
-```
-
-Auto-updates skipped; risk is profile sections will show static placeholder values until workflow is added.
-
-
-I would **not stop at this V2**.
-
-Your next version could be much more distinctive: an **anime cyberpunk "operating system" README**, where the sections look like UI panels:
-
-```text
-╔══════════════════════════════════════════════════════════════╗
-║  KINGPLAYZ OS                              ● ONLINE          ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║  ┌───────────────┐     ┌─────────────────────────────────┐  ║
-║  │               │     │  TERMINAL                       │  ║
-║  │   ANIME       │     │  > loading kingplayz.exe       │  ║
-║  │   CHARACTER   │     │  > projects ............. ✓    │  ║
-║  │               │     │  > systems .............. ✓    │  ║
-║  └───────────────┘     └─────────────────────────────────┘  ║
-║                                                              ║
-║  [ PROJECTS ] [ SKILLS ] [ STATS ] [ CONTACT ]              ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-That would make your profile feel **custom-built instead of "another GitHub README template."**
